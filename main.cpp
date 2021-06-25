@@ -1,0 +1,24 @@
+#include <iostream>
+#include <stdlib.h>
+
+using namespace std;
+
+int main() {
+    //Escriba un programa que calcule el valor de: 1*2*3...*n (factorial)
+
+    //5! = 5*4*3*2*1
+    int numero, factorial = 1;
+
+    cout <<"Digite un numero"; cin>>numero;
+
+    for(int i=1;i<=numero;i++){
+
+    }
+
+    cout <<"\nEl factorial del numero es: "<<factorial<<endl;
+
+
+    system("pause");
+    return 0;
+}
+
